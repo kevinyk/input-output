@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.7.
 
+* This is demonstration code of using the @Input and @Output decorators to communicate between parent and child components.
+
+* The task-list component needs info from the parent tasks component in order to 
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
