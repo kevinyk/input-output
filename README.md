@@ -4,7 +4,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 * This is demonstration code of using the @Input and @Output decorators to communicate between parent and child components.
 
-* The task-list component needs info from the parent tasks component in order to 
+* The task-list component needs info from the parent tasks component's task property so it can have correct values for its myTasks property. So it uses the @Input decorator
+
+* The task-new component needs to communicate the new task it is trying to add to the tasks property of the tasks component. So it uses the @Output decorator.
+
+* This also demonstrates the use of classes in Angular 4 and how it help refactor repetitive object definitions.
 
 ## Development server
 
