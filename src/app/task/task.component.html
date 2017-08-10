@@ -1,0 +1,4 @@
+<app-task-new (addTaskEvent)="dataFromChild($event)"></app-task-new>
+<app-task-list [myTasks]="tasks"></app-task-list>
+
+{{ tasks | json }}
